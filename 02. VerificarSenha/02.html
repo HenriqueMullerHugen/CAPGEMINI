@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+    <meta name = 'viewport' content='width=device-width,initial-scale=1.0,maximum-scale=1.0' />
+    <link rel='shortcut icon' type='image-x/png' href="./logo-capgemini_1.ico" />
+    <link rel = "stylesheet" href= "./02.css" />
+    <script src="./02.js" defer></script>
+
+    <title>Verificar Força de Senha</title>
+
+</head>
+
+<body>
+
+    <form class="cadastro">
+        <h1>CADASTRE-SE</h1>
+        <input type="text" id="primeiro" placeholder="digite aqui seu nome" autocomplete="off"  />
+        <input type="text" id="ultimo" placeholder="digite aqui seu sobrenome" autocomplete="off"  />
+        <input type="email" class="extra" placeholder="digite aqui seu melhor endereço de e-mail" autocomplete="off"  />
+        <input type="tel" class="extra" onkeypress="mascara(this)" maxlength="15" placeholder="digite aqui seu número de telefone ou whatsapp" autocomplete="off"  />
+        <input type="password" id="forca" onkeyup="executar()" minlength = "9" maxlength="20" placeholder="digite aqui a senha que você irá usar, crie-a conforme as instruções abaixo" required />
+        <p id="resposta">sua senha deve conter, no mínimo, <b>seis caracteres de qualquer tipo</b>.</p>
+
+        <div class="botao">
+        <input type="submit" value="CADASTRAR DADOS" />
+        <input type="submit" id="enviar" value="MOSTRAR OU OCULTAR SENHA" />
+        </div><!--botao-->
+        
+    </form><!--cadastro-->
+
+</body>
+
+</html>

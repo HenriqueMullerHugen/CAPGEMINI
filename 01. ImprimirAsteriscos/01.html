@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+    <meta name = 'viewport' content='width=device-width,initial-scale=1.0,maximum-scale=1.0' />
+    <link rel='shortcut icon' type='image-x/png' href="./logo-capgemini_1.ico" />
+    <link rel = "stylesheet" href= "./01.css" />
+    <script src="./01.js" defer></script>
+
+    <title>Imprima Asteriscos</title>
+
+</head>
+
+<body>
+
+    <section class="tela">
+
+    <div class="limite">
+    <h1>GERADOR DE IMPRESSÃO DE ASTERISCOS</h1>
+    <h2>⬇</h2>
+    <p>DIGITE UM VALOR NUMÉRICO NA CAIXA DE TEXTO ABAIXO, APERTE O BOTÃO E IMPRIMA NA TELA O VALOR INFORMADO TANTO EM QUANTIDADE DE CARACTERES QUANTO EM QUANTIDADE DE LINHAS!</p>
+    <input type="number" autocomplete="off" id="pergunta" placeholder="insira a quantidade que deseja imprimir na tela" />
+    <input type="submit" value="ENVIAR" id="responder" />
+    <button onclick="limpar()">RESETAR</button>
+    <h6>o resultado será impresso abaixo desta mensagem</h6>
+    </div><!--limite-->
+
+    <div class="impressao">
+        <h6 id="resposta"></h6>
+    </div><!--impressao-->
+
+    </section><!--tela-->
+
+</body>
+
+</html>
