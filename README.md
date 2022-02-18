@@ -1,5 +1,5 @@
 # CAPGEMINI
-os três desafios para a academia capgemini!
+OS TRÊS DESAFIOS PARA A ACADEMIA CAPGEMINI!
 
 
 Os projetos foram feitos em javascript vanilla (puro, sem frameworks e bibliotecas);
